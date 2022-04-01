@@ -1,0 +1,123 @@
+body {
+    width: auto;
+    height: 100vh;
+    background-image: url("background.png");
+    background-size: 100%;
+    background-position: 50%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+#wrapper {
+    position: relative;
+    top: 20%;
+    bottom: 20%;
+    transform: translateY(-50%);
+    top: 40%;
+}
+
+#overlay {
+    width: auto;
+    height: 100vh;
+}
+
+#flexContainer {
+    display: flex;
+    justify-content: center;
+    margin: 6%;
+    
+}
+
+#drumkitContainer {
+    width: 280px;
+
+}   
+
+img {
+    height: 250px;
+    position: absolute;
+    border: 5px solid rgba(235, 9, 9, 0);
+    margin: auto;
+    text-align: center;
+}
+
+#a {
+    width: 100px;
+    height: 10px;
+    position: relative;
+    top: 25px;
+    left: 10px;
+    transform: rotate(12deg);
+    border-radius: 40%;
+    box-sizing: border-box;
+    border: none;
+}
+
+#b {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 40px;
+    left: 75px;
+    transform: rotate(12deg);
+    border-radius: 30%;
+    box-sizing: border-box;
+    border: none;
+}
+
+#c {
+    width: 60px;
+    height: 50px;
+    position: relative;
+    top: -13px;
+    left: 145px;
+    transform: rotate(-2deg);
+    border-radius: 30%;
+    box-sizing: border-box;
+    border: none;
+}
+
+#d {
+    width: 83px;
+    height: 40px;
+    position: relative;
+    top: -33px;
+    left: 190px;
+    transform: rotate(0deg);
+    border-radius: 10%;
+    box-sizing: border-box;
+    border: none;
+}
+#e {
+    width: 75px;
+    height: 10px;
+    position: relative;
+    top: -150px;
+    left: 198px;
+    transform: rotate(-12deg);
+    border-radius: 40%;
+    box-sizing: border-box;
+    border: none;
+}
+
+#a:hover, #b:hover, #c:hover, #d:hover, #e:hover, #f:hover {
+    cursor: pointer;
+}
+
+#f {
+    box-sizing: border-box;
+    border: none;
+    width: 150px;
+    height: 120px;
+    position: relative;
+    top: -40px;
+    left: 58px;
+    transform: rotate(0deg);
+    border-radius: 45%;
+}
+
+#instructions {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+}
